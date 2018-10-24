@@ -8,6 +8,13 @@ Create folder and README doc for:
 
 ***  
 
+### Table of Contents:  
+* ipsum  
+* lorem  
+* schwing  
+
+***  
+
 ## Drupal 7 Install on AWS Elastic Beanstalk  
 ### Specific to Installing Purchased Theme (theMag a.k.a. pinkdexo)  
 Rough draft of steps below.  

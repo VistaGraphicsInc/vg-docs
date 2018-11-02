@@ -52,3 +52,28 @@ First test: http://cova-magazine.xkp4phxgmf.us-east-1.elasticbeanstalk.com
   
 Copy the variables `.ebextensions settings` to settings.php after installing Drupal via `example-website/install.php`  
 
+Applications deployed on Beanstalk hould be **stateless**  
+
+***  
+
+## Beanstalk Environment - Round 2  
+
+#### Local_project_Name/Drupal_Folder:  
+`export PATH=LOCAL_PATH_TO_EB.EXE`  
+
+`eb init --platform "php 7.2" --region us-east-1`  
+
+`eb init`  
+
+"newkeypair.pem"  
+
+default names for all aws resources  
+
+#### dev.config  
+```  
+
+```  
+
+
+
+

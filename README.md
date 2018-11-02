@@ -44,3 +44,11 @@ First test: http://cova-magazine.xkp4phxgmf.us-east-1.elasticbeanstalk.com
   - Upload the file in "themag_demo_content"  
   
 ***  
+
+`11/2/2018`  
+
+* Be sure to follow steps from README.md
+  - from `aws-samples`  
+  
+Copy the variables `.ebextensions settings` to settings.php after installing Drupal via `example-website/install.php`  
+

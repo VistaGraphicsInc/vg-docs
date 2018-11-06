@@ -78,6 +78,7 @@ default names for all aws resources
 
 ## S3 File System Module  
 
-
+* current theme already has `libraries`  
+* install AWS SDK for PHP  
 
 

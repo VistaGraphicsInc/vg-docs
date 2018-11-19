@@ -1,6 +1,4 @@
-# VistaGraphics Inc. Documentation (vg-docs)
-
-VistaGraphics Inc. Documentation  
+# VistaGraphics Inc. Documentation  
 
 Create folder and README doc for:  
 * Website going live  

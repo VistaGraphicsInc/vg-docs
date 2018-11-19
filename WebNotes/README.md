@@ -1,7 +1,7 @@
 # WordPress Site Rollout Guide  
 ## Notes on How To Move a Redesigned WordPress Site & Ready to Go live  
 
-This is a *general* outline to help guide through the process of moving a production WordPress (WP) website to a *live-state*, when ready. This outline works for most sites, i.e. hosted in-house (standard) by [VistaGraphics Inc.](http://www.vistagraphicsinc.com/).  
+This is a *general* outline to help guide through the process of moving a production WordPress (WP) website to a *live-state*, when ready. This outline works for most sites, i.e. hosted in-house (standard) by [VistaGraphics Inc.](http://www.vistagraphicsinc.com/)  
 
 This README is divided into two separate outlines: [Standard](#standard-wordpress-site-rollout) (hosted by VistaGraphics Inc., or *in-house*) and [Client-Hosted](#client-hosted-wordpress-rollout).  
 

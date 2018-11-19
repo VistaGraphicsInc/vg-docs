@@ -3,11 +3,13 @@
 
 This is a *general* outline to help guide through the process of moving a production WordPress (WP) website to a *live-state*, when ready. This outline works for most sites, i.e. hosted in-house (standard) by [VistaGraphics Inc.](http://www.vistagraphicsinc.com/).  
 
-For a WP site ready to go live, to be hosted by a client's means, see the [next section](#client-hosted-wordpress-rollout).  
+This README is divided into two separate outlines: [Standard](#standard-wordpress-site-rollout) (hosted by VistaGraphics Inc., or *in-house*) and [Client-Hosted](#client-hosted-wordpress-rollout).  
+
+For a WP site ready to go live, to be hosted by a client's means, skip the first section to see the [next section](#client-hosted-wordpress-rollout).  
 
 ***  
 
-# Standard WordPress Site Rollout  
+# **Standard** WordPress Site Rollout  
 
 #### *10,000 ft.* Overview of *Standard* Steps:  
 * Backup the Site Files & Database  
@@ -27,7 +29,7 @@ For a WP site ready to go live, to be hosted by a client's means, see the [next 
 2. Select Current Database Name (e.g. `lynchburg_wp1_db`)  
 3. Select Export: export as `.sql`  
 
-Download the site files and database backups, then upload somewhere safe, i.e. `SYN_NAS0`.    
+Download the site files and database backups, then upload to a safe place, i.e. `SYN_NAS0`, or `Grandma's House`.  
 
 # The Going-Live Bit  
 
@@ -67,7 +69,7 @@ Download the site files and database backups, then upload somewhere safe, i.e. `
 
 ***  
 
-# Client-Hosted WordPress Rollout  
+# **Client-Hosted** WordPress Rollout  
 
 *Note: the following guide is for a client already hosting through GoDaddy.*  
 

@@ -1,7 +1,7 @@
 # WordPress Site Rollout Guide  
 ## Notes on How To Move a Redesigned WordPress Site & Ready to Go live  
 
-This is a *general* outline to help guide through the process of moving a production WordPress (WP) website to a *live-state*, when ready. This outline works for most sites, i.e. hosted in-house (standard) by [VistaGraphics Inc.](http://www.vistagraphicsinc.com/)  
+This is a *general* outline to help guide through the process of moving a production [WordPress](https://wordpress.com/) (WP) website to a *live-state*, when ready. This outline works for most sites, i.e. hosted in-house (standard) by [VistaGraphics Inc.](http://www.vistagraphicsinc.com/)  
 
 This README is divided into two separate outlines: [Standard](#standard-wordpress-site-rollout) (hosted by VistaGraphics Inc., or *in-house*) and [Client-Hosted](#client-hosted-wordpress-rollout).  
 
@@ -16,6 +16,8 @@ For a WP site ready to go live, to be hosted by a client's means, skip the first
 * Update permalinks  
 
 # Backup the Website & Database  
+
+It is always a good idea to make a copy of your website, before undergoing major changes. Below are steps for taking a *snapshot* of your website, Site Files and the Database.  
 
 ## Backup Site Files  
 
@@ -32,6 +34,8 @@ For a WP site ready to go live, to be hosted by a client's means, skip the first
 Download the site files and database backups, then upload to a safe place, i.e. `SYN_NAS0`, or `Grandma's House`.  
 
 # The Going-Live Bit  
+
+In order to make the website "live", all links must point to the correct Domain.  
 
 ## Update Site Links  
 

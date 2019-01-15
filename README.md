@@ -15,7 +15,8 @@ Create folder and README doc for:
   - miscellaneous web docs  
 * [Horton](https://github.com/VistaGraphicsInc/vg-docs/tree/master/Horton)  
   - Xerox Versant 180 Press printer docs  
-* AWS  
+* [AWS - Elastic Beanstalk Drupal Project](https://github.com/VistaGraphicsInc/vg-docs/tree/master/AWS/EC2-EB-DRUPAL)  
+* [AWS](https://github.com/VistaGraphicsInc/vg-docs/tree/master/AWS)  
   - Amazon Web Services  
 
 ***  

@@ -19,7 +19,7 @@ A quick *one-two* high-level steps below.
 1. In the **.ebextensions** directory, create a new file (e.g. s3-proxy.config)  
 2. Add the following code below to the file and then run `eb deploy`  
 
-####s3-proxy.config:  
+#### s3-proxy.config:  
 ```html
 packages:
   yum:

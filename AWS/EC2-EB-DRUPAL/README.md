@@ -31,7 +31,7 @@ files:
     owner: root
     group: root
     encoding: plain
-    content: |
+    content:
         <ifModule mod_ssl.c>
             ProxyRequests Off
             SSLProxyEngine on

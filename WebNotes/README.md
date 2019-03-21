@@ -75,12 +75,28 @@ In order to make the website "live", all links must point to the correct Domain.
 
 # **Client-Hosted** WordPress Rollout  
 
+## GoDaddy  
 *Note: the following guide is for a client already hosting through GoDaddy.*  
 
 #### *10,000 ft.* Overview of *Client-Hosted* Steps:  
 
 * Backup the Site Files & Database  
-* Backup the client's current site files (and databas, if there is one)  
+* Backup the client's current site files (and database, if there is one)  
 * Update permalinks  
 * Update the programming language of the environment (PHP) to match closest to that of the production site, and Apache (if need be)  
 
+***  
+
+## HostGator  
+
+### Scenario: *redesigned* WordPress project housed in `/wp` directory  
+
+#### *10,000 ft.* Overview:  
+
+* Download the *live* database, place the `.sql` file into the *live* `public_html` directory  
+* Compress `public_html` **--> omitting** `cg-bgin` **from the compression**  
+* Use Search & Replace plugin on the `/wp` project; in order to remove any url instance of `/wp` and `/wp/`  
+* Compress `/wp` folder  
+* Delete uncompressed "live" site files (`public_html` contents **--> omitting** `cg-bin`)  
+* Extract `/wp` folder contents to `public_html`  
+* Have a beer  

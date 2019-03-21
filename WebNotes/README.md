@@ -96,7 +96,8 @@ In order to make the website "live", all links must point to the correct Domain.
 * Download the *live* database, place the `.sql` file into the *live* `public_html` directory  
 * Compress `public_html` **--> omitting** `cg-bgin` **from the compression**  
 * Use Search & Replace plugin on the `/wp` project; in order to remove any url instance of `/wp` and `/wp/`  
-* Compress `/wp` folder  
-* Delete uncompressed "live" site files (`public_html` contents **--> omitting** `cg-bin`)  
-* Extract `/wp` folder contents to `public_html`  
+* Compress `/wp` directory   
+* Remove uncompressed `/wp` directory  
+* Remove uncompressed "live" site files (`public_html` contents **--> omitting** `cg-bin`)  
+* Extract `/wp` directory contents to `public_html`  
 * Have a beer  
